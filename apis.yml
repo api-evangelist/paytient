@@ -1,7 +1,16 @@
 aid: paytient
 name: Paytient
-description: Paytient is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Paytient operates a healthcare payments platform built around the Health Payment
+  Account (HPA) — an interest-free, no-credit-check payment card that lets members
+  pay for medical, dental, vision, pharmacy, and veterinary care and then repay on a
+  self-selected schedule. It is distributed through employers, health plans, insurers,
+  brokers, and providers to reduce out-of-pocket cost friction, and provides employer
+  dashboards for tracking healthcare spend. Paytient is SOC 2 Type II audited and
+  holds NMLS licensure (ID 2040265). The company was surfaced as a portfolio company
+  of Felicis and added to the API Evangelist network; as of this pass it publishes no
+  public developer API, SDKs, OpenAPI, or documentation surface — only a member/employer
+  application and marketing site.
 url: https://raw.githubusercontent.com/api-evangelist/paytient/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,29 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/631eddfd322acf4bde169f3f/69cd3cd08d2fab3a5a631e51_Paytient_Webclip_Webflow_256x256_Light.png
 tags:
 - Company
+- Financial Services
+- Healthcare
+- Payments
+- Fintech
+- Health Benefits
+- Lending
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://paytient.com
+- type: Pricing
+  url: https://www.paytient.com/pricing
+- type: Blog
+  url: https://www.paytient.com/blog
+- type: PrivacyPolicy
+  url: https://www.paytient.com/privacy
+- type: TermsOfService
+  url: https://www.paytient.com/terms
+- type: Login
+  url: https://my.paytient.com/login
+- type: Security
+  url: https://www.paytient.com/security
+- type: Compliance
+  url: https://www.paytient.com/security
+- type: TrustCenter
+  url: security/paytient-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/paytient-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/paytient-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

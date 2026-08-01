@@ -1,0 +1,12 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.paytient.com/security
+url: https://www.paytient.com/security
+certifications:
+- SOC 2
+evidence:
+- source: https://www.paytient.com/security
+  keywords:
+  - soc 2
+  - soc2
